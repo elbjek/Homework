@@ -6,16 +6,23 @@
     text-align: center;
     h1{
         font-size: 70px;
-        padding: 40px 0px;
+        padding: 40px 0px 0px 0px;
         font-weight: 900;
+        color:$primary-font;
         &::after{
             content: " IPSUM";
             font-weight: 500;
         }
     }
+    hr{
+        height:3px;
+        width:50px;
+        background-color: $primary-font;
+    }
     p{
         width:100%;
         padding:20px;
+        font-size: $content-medium;
     }
     
 }
