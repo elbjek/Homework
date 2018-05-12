@@ -3,7 +3,7 @@ import '../vendor/slick.min';
 $(document).ready(function(){
   $('.slick').slick({
     autoplay:true,
-    autoplaySpeed:1200,
+    autoplaySpeed:3000,
     mobileFirst:true,
     dots:true,
     arrows:false,
