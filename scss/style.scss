@@ -1,0 +1,14 @@
+// Vendor Globals
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "vendor/slick-theme";
+@import "vendor/slick";
+
+
+// Domain Globals
+@import "fonts";
+@import "variables";
+@import "main";
+
+// Templating
+@import "_Partials/hero";
+@import "_Partials/footer";

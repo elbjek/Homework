@@ -1,0 +1,53 @@
+.full{
+width:100%;
+margin:0 auto;
+	.my-navigation{
+		position: absolute;
+		z-index: 1;
+		max-width:1440px;
+		border-bottom: 1px solid black;
+		
+		.navbar-brand{
+			font-size: 25px;
+			font-weight: 900;
+			
+			&:hover{
+				text-decoration: none;
+				transform: scale(1.06);
+				transition: 0.5s ease-in-out;
+				color:$primary-font;
+			}
+		}
+		
+		a{
+			
+			font-weight:700;
+			color:$primary-font;
+			margin-top: 20px;
+			&:hover{
+				text-decoration: underline;
+			}
+			
+		}
+		
+	}
+	.text{
+		position: absolute;
+		z-index: 2;
+		top:40%;
+		margin:0 auto;
+		
+		h1{
+			font-size: 120px;
+			font-weight: 900;
+			text-align: center;
+			color:$primary-font;
+		}
+		p{
+			font-size: 20px;
+			font-weight: 600;
+		}
+	}
+	
+}
+
