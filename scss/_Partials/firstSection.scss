@@ -1,5 +1,20 @@
 .first-block{
-    height:500px;
+padding:200px 0px;;
     width:1140px;
-    background: pink;
+margin:0 auto;
+
+text-align: center;
+h1{
+    font-size: 70px;
+    padding: 40px 0px;
+    font-weight: 900;
+    &::after{
+        content: " IPSUM";
+        font-weight: 500;
+    }
+}
+p{
+    width:100%;
+}
+
 }
